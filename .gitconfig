@@ -1,0 +1,10 @@
+[user]
+	name = Tomasz Bieńkowski
+	email = it.bienkowski@gmail.com
+[core]
+	editor = code --wait
+	autocrlf = input
+[diff]
+    tool = vscode 
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
