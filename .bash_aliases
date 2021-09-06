@@ -16,4 +16,6 @@
 alias idea='/opt/idea-IU-212.4746.92/bin/idea.sh'
 
 #Download mp3 from youtube - to fix, doesn't work rn
-alias ytm='youtube-dl --extract-audio --audio-format mp3 --output "$HOME/Music/YouTube Music/%(channel)s/%(title)s.%(ext)s"'
+alias ytm='youtube-dl --extract-audio --audio-format mp3 --output --yes-playlist -i "$HOME/Music/Youtube/%(channel)s/%(title)s.%(ext)s"'
+
+alias aptup='./.aptupdate.sh'
