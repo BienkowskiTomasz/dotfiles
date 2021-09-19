@@ -20,3 +20,5 @@ alias ytm='youtube-dl --extract-audio --audio-format mp3 --output "$HOME/Music/Y
 alias ytmp='youtube-dl --extract-audio --audio-format mp3 --ignore-errors --yes-playlist --output "$HOME/Music/Youtube/%(channel)s/%(title)s.%(ext)s"'
 
 alias aptup='~/.scripts/.aptupdate.sh'
+alias jn='cd ~/Documents/IT/java/javaNotes && ls'
+alias notes='cd ~/Documents/notes'
