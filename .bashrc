@@ -35,6 +35,9 @@ if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
+#Git prompt
+source ~/.git-prompt.sh
+
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
@@ -116,5 +119,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#Git prompt
-source ~/.git-prompt.sh
+#Vim mode enabled
+set -o vi
