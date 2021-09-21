@@ -27,7 +27,7 @@ if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
-#Git prompt
+# import git prompt script
 source ~/.git-prompt.sh
 
 # set a fancy prompt (non-color, unless we know we "want" color)
@@ -47,7 +47,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w/$(__git_ps1 " \[\033[2;33m\](%s)")\[\033[00m\]$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\W/$(__git_ps1 " \[\033[2;33m\](%s)")\[\033[00m\]$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
