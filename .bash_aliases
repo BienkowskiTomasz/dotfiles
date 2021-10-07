@@ -4,6 +4,7 @@ alias gita='git add -A'
 alias gitcm='git commit -m'
 alias gitl='git log --graph --oneline'
 alias gitlm='git log --graph --oneline --author="Tomasz Bieńkowski"'
+alias gitla='git log --graph --oneline --all'
 
 #Basic linux commands
 alias c='clear'
@@ -18,7 +19,7 @@ alias website='cd /home/s3th/Documents/website'
 alias jn='cd ~/Documents/IT/java/javaNotes && ls'
 alias notes='cd ~/Documents/notes'
 alias homework='cd ~/Documents/IT/bootcamp/homeworks/jjdzr4-homeworks'
-
+alias project='cd ~/Documents/IT/bootcamp/workandfun/jjdzr4-i-ll-be-back && gitl --all'
 
 #Clipboard aliases
 #Copy current directory to clipboard
