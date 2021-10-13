@@ -17,7 +17,7 @@ alias egrep='egrep --color=auto'
 #cd aliases
 alias website='cd /home/s3th/Documents/website'
 alias jn='cd ~/Documents/IT/java/javaNotes && ls'
-alias notes='cd ~/Documents/notes'
+alias notes='cd ~/Documents/notes && lsa'
 alias homework='cd ~/Documents/IT/bootcamp/homeworks/jjdzr4-homeworks'
 alias project='cd ~/Documents/IT/bootcamp/workandfun/jjdzr4-i-ll-be-back && gitl --all'
 
@@ -29,7 +29,7 @@ alias pwdx='pwd | xclip -selection clipboard'
 alias token='xclip -selection clipboard -i < ~/.gittoken'
 
 #Opens Intelij IDEA
-alias idea='/opt/idea-IU-212.4746.92/bin/idea.sh'
+alias idea='/opt/intelij/bin/idea.sh'
 
 #Download mp3 from youtube - to fix, doesn't work rn
 alias ytm='youtube-dl --extract-audio --audio-format mp3 --output "$HOME/Music/Youtube/%(channel)s/%(title)s.%(ext)s"'
