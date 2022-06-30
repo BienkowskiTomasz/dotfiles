@@ -1,0 +1,10 @@
+#Ignore everything
+*
+
+#Except
+!.gitignore
+!.bash_aliases
+!.bashrc
+!.git-prompt.sh
+!.gitconfig
+!.vimrc

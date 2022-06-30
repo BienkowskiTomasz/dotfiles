@@ -35,4 +35,6 @@ alias idea='/opt/intelij/bin/idea.sh'
 alias ytm='youtube-dl --extract-audio --audio-format mp3 --output "$HOME/Music/Youtube/%(channel)s/%(title)s.%(ext)s"'
 alias ytmp='youtube-dl --extract-audio --audio-format mp3 --ignore-errors --yes-playlist --output "$HOME/Music/Youtube/%(channel)s/%(title)s.%(ext)s"'
 
+# My quality of life improvements
 alias aptup='~/.scripts/.aptupdate.sh'
+alias spanko='~/.scripts/.sleep.sh'
